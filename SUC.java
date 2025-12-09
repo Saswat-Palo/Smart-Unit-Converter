@@ -62,7 +62,7 @@ public class SUC {
 			break;
 			case 5: System.out.println("Enter m ");
 			double lm = sc.nextDouble();
-			System.out.println(lm+" m in km is "+(lm*1000)+" km");
+			System.out.println(lm+" m in km is "+(lm/1000)+" km");
 			break;
 			case 6: System.out.println("Enter km ");
 			double km = sc.nextDouble();
@@ -142,4 +142,5 @@ public class SUC {
 	}
 
 }
+
 
